@@ -55,7 +55,16 @@ I want to do the following:
 * Create an Akka.NET app on .NET Core that has two actors: a `PingActor` and a `PongActor`. They will each, predictably, send messages that say "ping" and "pong" back and forth.
 * I want to deploy this codebase in two different (Linux) Docker containers on different ports. This way I can see Akka.NET work across multiple machines using Akka.Remote.
 
+#### A Quick Note: I'm Figuring it out as I go
+For the parts below, if you wonder "how did he know how to do that?", the answer is: I was reading docs and googling. :) 
+
 Let's dive in!
 
-#### A Quick Note: I'm Learning as I go
-For the parts below, if you wonder "how did he know how to do that?", the answer is: I was reading docs and googling. :) 
+### Creating the Project Structure
+
+* I open a command prompt and navigate to a temp directory
+* I run `dotnet new solution -o PingPong`. This creates new empty solution in the PingPong directory
+* I cd into the `PingPong` directory.
+* Run `dotnet new console -o PingPong.Console` which creates a folder and the console app
+* Run `dotnet new console -o PingPong.Domain` which creates a folder and the class lib project
+* Add the projects to the solution using `dotnet sln PingPong.sln add PingPong.Console\PingPong.Console.csproj` and `dotnet sln PingPong.sln add PingPong.Domain\PingPong.Domain.csproj`
