@@ -68,3 +68,12 @@ Let's dive in!
 * Run `dotnet new console -o PingPong.Console` which creates a folder and the console app
 * Run `dotnet new console -o PingPong.Domain` which creates a folder and the class lib project
 * Add the projects to the solution using `dotnet sln PingPong.sln add PingPong.Console\PingPong.Console.csproj` and `dotnet sln PingPong.sln add PingPong.Domain\PingPong.Domain.csproj`
+* Reference the domain project from the console project via `dotnet add PingPong.Console\PingPong.Console.csproj reference PingPong.Domain\PingPong.Domain.csproj`
+* Run `dotnet restore PingPong.sln` to update the packages
+* Run `dotnet build PingPong.sln` to build the solution
+
+Here I hit my first snag, an error: `Program.cs(9,13): error CS0234: The type or namespace name 'WriteLine' does not exist in the namespace 'PingPong.Console' (are you missing an assembly reference?)`
+
+Spent a while trying to fix it. Not sure what's going on.
+
+And there my day of experimentation ended. 
