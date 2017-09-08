@@ -56,3 +56,6 @@ I want to do the following:
 * I want to deploy this codebase in two different (Linux) Docker containers on different ports. This way I can see Akka.NET work across multiple machines using Akka.Remote.
 
 Let's dive in!
+
+#### A Quick Note: I'm Learning as I go
+For the parts below, if you wonder "how did he know how to do that?", the answer is: I was reading docs and googling. :) 
