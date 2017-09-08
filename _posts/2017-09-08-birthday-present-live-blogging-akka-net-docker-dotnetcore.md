@@ -48,3 +48,11 @@ And I figured since it's new territory, I'd blog it here to go into any trials a
 
 At this point, I had a .NET Core app up and running and new things would work.
 
+## Okay, Let's Do This.
+
+I want to do the following:
+
+* Create an Akka.NET app on .NET Core that has two actors: a `PingActor` and a `PongActor`. They will each, predictably, send messages that say "ping" and "pong" back and forth.
+* I want to deploy this codebase in two different (Linux) Docker containers on different ports. This way I can see Akka.NET work across multiple machines using Akka.Remote.
+
+Let's dive in!
