@@ -62,7 +62,7 @@ Let's dive in!
 
 ### Creating the Project Structure
 
-* I open a command prompt and navigate to a temp directory
+* Within the VS Code terminal, I open a command prompt and navigate to a temp directory
 * I run `dotnet new solution -o PingPong`. This creates new empty solution in the PingPong directory
 * I cd into the `PingPong` directory.
 * Run `dotnet new console -o PingPong.Console` which creates a folder and the console app
@@ -74,6 +74,5 @@ Let's dive in!
 
 Here I hit my first snag, an error: `Program.cs(9,13): error CS0234: The type or namespace name 'WriteLine' does not exist in the namespace 'PingPong.Console' (are you missing an assembly reference?)`
 
-Spent a while trying to fix it. Not sure what's going on.
+Spent a while trying to fix it. Turns out I named my project `PingPong.Console`, and the `.Console` meant that in the hello world console app it was confused and I had to change `Console.WriteLine` to `System.Console.WriteLine`. D'oh.
 
-And there my day of experimentation ended. 
