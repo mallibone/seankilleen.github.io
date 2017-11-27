@@ -7,9 +7,11 @@ excerpt: "Excella's latest contribution to the OSS ecosystem."
 comments: true
 ---
 
-I'm excited to announce Excella's latest foray into the open-source world -- our new URL shortener, located at <http://xluh.co>.
+I'm excited to announce Excella's latest foray into the open-source world -- our new URL shortener, located at <http://xluh.co>. 
 
-## The Business Problem
+(Excella co...get it? No? Is this thing on?)
+
+## Understading the Business Problem
 
 Even as a technology company, sometimes we don't get to pick which URLs we use. Internal applications, vendor tools, and CMSs sometimes generate long URLs that are hard to remember and distribute.
 
@@ -33,4 +35,4 @@ We wanted the application to be accessible even for those who might be less fami
 
 You can find the application live at <http://xluh.co>.
 
-If you'd like to explore the source code, submit an issue, or adapt this tool for your own business, we hope you'll check out [the xluhco repository on the ExcellaLabs Github](http://github.com/ExcellaLabs/xluhco).
+If you'd like to explore the source code, submit an issue, or adapt this tool for your own business, we hope you'll check out [the xluhco repository on the ExcellaLabs Github](http://github.com/ExcellaLabs/xluhco). If you have any questions, [create an issue](TODO) and we'll be happy to help out!
