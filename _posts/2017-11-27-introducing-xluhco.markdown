@@ -9,4 +9,16 @@ comments: true
 
 I'm excited to announce Excella's latest foray into the open-source world -- our new URL shortener, located at <http://xluh.co>.
 
-## Why a URL Shortener?
+## The Business Problem
+
+Even as a technology company, sometimes we don't get to pick which URLs we use. Internal applications, vendor tools, and CMSs sometimes generate long URLs that are hard to remember and distribute.
+
+If we created our own URLs, we may not get access to the analytics of who's clicking on our links and where they're coming from. And, if we did go with a tool such as `bit.ly` or any of the other competitors on the market, we wouldn't be able to use our own domain name without paying a pretty penny (`bit.ly` charges roughly $900/month for this functionality at last glance).
+
+What's a tech company to do?...
+
+## Our Solution: xluh.co
+
+...Build our own, of course! And what better way to do so than in the open, with guidance for other businesses on how they can use it as well?
+
+We decided to use [Microsoft's NET Core Framework](TODO) -- a reincarnation of Microsoft's .NET stack. It's cross-platform, which is important to us because we want anyone using this to be able to service it up on Windows, Linux, or on a Mac for maximum flexibility.
