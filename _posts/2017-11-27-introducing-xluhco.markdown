@@ -22,3 +22,11 @@ What's a tech company to do?...
 ...Build our own, of course! And what better way to do so than in the open, with guidance for other businesses on how they can use it as well?
 
 We decided to use [Microsoft's NET Core Framework](TODO) -- a reincarnation of Microsoft's .NET stack. It's cross-platform, which is important to us because we want anyone using this to be able to service it up on Windows, Linux, or on a Mac for maximum flexibility.
+
+On this project, we're using [Appveyor](TODO) for continuous integration to make sure all of our tests would pass whenever
+
+## Check it out!
+
+You can find the application live at <http://xluh.co>.
+
+If you'd like to explore the source code, submit an issue, or adapt this tool for your own business, check out [the xluhco repository on the ExcellaLabs Github](http://github.com/ExcellaLabs/xluhco).
