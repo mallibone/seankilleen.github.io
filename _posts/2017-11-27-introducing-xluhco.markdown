@@ -21,7 +21,7 @@ What's a tech company to do?...
 
 ## Our Solution: xluh.co
 
-...Build our own, of course! And what better way to do so than in the open, with guidance for other businesses on how they can use it as well?
+...Build our own, of course! And what better way to do so than in the open, with guidance on how others can use it as well?
 
 We decided to use [Microsoft's NET Core Framework](TODO) -- a reincarnation of Microsoft's .NET stack. It's cross-platform, which is important to us because we want anyone using this to be able to service it up on Windows, Linux, or on a Mac for maximum flexibility.
 
