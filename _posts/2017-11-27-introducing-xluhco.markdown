@@ -7,7 +7,7 @@ excerpt: "Excella's latest contribution to the OSS ecosystem."
 comments: true
 ---
 
-I'm excited to announce Excella's latest foray into the open-source world -- our new URL shortener, located at <http://xluh.co>. 
+I'm excited to announce Excella's latest foray into the open-source world -- our new URL shortener, located at <http://xluh.co>.
 
 (Excella co...get it? No? Is this thing on?)
 
